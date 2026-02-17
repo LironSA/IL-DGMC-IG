@@ -1,6 +1,6 @@
 {
   "name": "il-dgmc-ig",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Israel Division of Governmental Hospitals Profiles",
   "type": "module",
   "scripts": {
