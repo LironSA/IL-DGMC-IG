@@ -19,7 +19,7 @@ Alias: $ext-delete-time-stamp =       http://fhir.dgmc.health.gov.il/StructureDe
 Alias: $ext-delete-user =             http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-user
 Alias: $ext-nmr-service-status-code = http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-service-status-code
 Alias: $ext-nmr-doc-status-code =     http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-doc-status-code
-Alias: $ext-consult-permission =      http://fhir.dgmc.health.gov.il/StructureDefinition/ext-consult-per
+Alias: $ext-permission =              http://fhir.dgmc.health.gov.il/StructureDefinition/ext-permission
 Alias: $ext-med-confirmed-by =        http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-confirmed-by
 Alias: $ext-med-total-daily-dose =    http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-total-daily-dose
 Alias: $ext-med-order-type =          http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-order-type
@@ -28,6 +28,8 @@ Alias: $ext-med-order-protocol-desc = http://fhir.dgmc.health.gov.il/StructureDe
 
 // CodeSystems
 Alias: $csFollowUp =           http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
+Alias: $csCmlFollowupCode =    http://fhir.dgmc.health.gov.il/cs/cml-followup-code
+Alias: $csFollowupCategory =   http://fhir.dgmc.health.gov.il/cs/cml-followup-category
 Alias: $csCmlFollowupCode =    http://fhir.dgmc.health.gov.il/cs/cml-followup-code
 Alias: $csFollowupCategory =   http://fhir.dgmc.health.gov.il/cs/cml-followup-category
 Alias: $csConsultPatState =    http://fhir.dgmc.health.gov.il/cs/cml-counseling-patient-state
@@ -126,6 +128,14 @@ Alias: $vsCmlExternalDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsCmlMedRouteCodeUri =          http://fhir.dgmc.health.gov.il/ValueSet/cml-med-route-code-uri
 Alias: $vsCmlCocktailDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-cocktail-drug-code-uri
 Alias: $vsCmlMedOrderUri =              http://fhir.dgmc.health.gov.il/ValueSet/cml-med-order-uri
+Alias: $vsCmlFollowUpCode =             http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-code
+Alias: $vsCmlFollowUp =                 http://fhir.dgmc.health.gov.il/ValueSet/cml-followup
+Alias: $vsFollowupCategory =            http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-category
+Alias: $vsCmlDocumentType =             http://fhir.dgmc.health.gov.il/ValueSet/cml-document-type
+Alias: $vsCmlDocumentVersioned =        http://fhir.dgmc.health.gov.il/ValueSet/cml-document-versioned
+Alias: $vsCmlDocuments =                http://fhir.dgmc.health.gov.il/ValueSet/cml-documents
+Alias: $vsNmrDocumentCategory =         http://fhir.dgmc.health.gov.il/ValueSet/nmr-document-category
+
 Alias: $vsCmlFollowUpCode =             http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-code
 Alias: $vsCmlFollowUp =                 http://fhir.dgmc.health.gov.il/ValueSet/cml-followup
 Alias: $vsFollowupCategory =            http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-category
